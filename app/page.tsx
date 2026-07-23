@@ -1520,7 +1520,7 @@ export default function Home() {
                         <YAxis
                           dataKey="name"
                           type="category"
-                          width={72}
+                          width={96}
                           tickLine={false}
                           axisLine={false}
                         />
