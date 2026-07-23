@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   },
   description: siteDescription,
   applicationName: siteName,
-  authors: [{ name: "André Nordström", url: "https://github.com/andreedd" }],
-  creator: "André Nordström",
-  publisher: "André Nordström",
+  authors: [{ name: "andreedd", url: "https://github.com/andreedd" }],
+  creator: "andreedd",
+  publisher: "andreedd",
   category: "outdoors",
   keywords: [
     "backpacking gear list",
@@ -106,7 +106,7 @@ const structuredData = {
   ],
   author: {
     "@type": "Person",
-    name: "André Nordström",
+    name: "andreedd",
     url: "https://github.com/andreedd",
   },
   codeRepository: repositoryUrl,

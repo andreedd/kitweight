@@ -1,11 +1,11 @@
 {
   "name": "kitweight",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A private-by-default hiking gear planner with weight visualizations and CSV import/export.",
   "private": true,
   "license": "MIT",
   "author": {
-    "name": "André Nordström",
+    "name": "andreedd",
     "url": "https://github.com/andreedd"
   },
   "repository": {
