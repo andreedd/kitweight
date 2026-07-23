@@ -18,7 +18,7 @@ account or sending the list to a server.
 
 ## Local development
 
-KitWeight requires Node.js 20.9 or newer and npm 10 or newer.
+KitWeight requires Node.js 24 and npm 10 or newer.
 
 ```bash
 npm ci
