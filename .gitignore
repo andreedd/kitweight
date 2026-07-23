@@ -1,0 +1,29 @@
+# Dependencies
+/node_modules/
+
+# Next.js build output
+/.next/
+/out/
+
+# Local environment files (commit a deliberate example file separately)
+.env*
+!.env.example
+
+# Vercel project linkage
+/.vercel/
+
+# Logs and test output
+*.log
+/coverage/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Original favicon-generator export; deployable copies live in /public
+/favicon/

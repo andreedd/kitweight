@@ -1,0 +1,58 @@
+{
+  "name": "kitweight",
+  "version": "0.1.0",
+  "description": "A private-by-default hiking gear planner with weight visualizations and CSV import/export.",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "André Nordström",
+    "url": "https://github.com/andreedd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreedd/kitweight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreedd/kitweight/issues"
+  },
+  "homepage": "https://kitweight.vercel.app",
+  "keywords": [
+    "backpacking",
+    "gear-list",
+    "hiking",
+    "pack-weight",
+    "ultralight"
+  ],
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck && npm run build"
+  },
+  "dependencies": {
+    "lucide-react": "1.24.0",
+    "next": "16.2.11",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "recharts": "3.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.1",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.2.11",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=20.9.0",
+    "npm": ">=10.0.0"
+  },
+  "overrides": {
+    "postcss": "8.5.12",
+    "sharp": "0.35.0"
+  },
+  "packageManager": "npm@11.16.0"
+}
