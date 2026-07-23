@@ -41,10 +41,10 @@ Import the GitHub repository into a Vercel Hobby project and keep the framework
 preset set to Next.js. No database, third-party service, or required environment
 variable is needed.
 
-Vercel's production URL is used automatically for canonical, Open Graph, robots,
-and sitemap URLs. To use a custom domain before it is attached to the project,
-set `SITE_URL` to its full origin (for example, `https://kitweight.example.com`)
-for the Production environment and redeploy.
+The official deployment uses `https://www.kitweight.com` for canonical, Open
+Graph, robots, and sitemap URLs. For a fork or another deployment, set
+`SITE_URL` to its full production origin before deploying. If it is omitted,
+Vercel's production URL is detected automatically.
 
 ## Data and privacy
 

@@ -1,4 +1,4 @@
-const fallbackSiteUrl = "https://kitweight.vercel.app";
+const fallbackSiteUrl = "https://www.kitweight.com";
 
 function parseSiteUrl(value: string) {
   const withProtocol = /^https?:\/\//i.test(value) ? value : `https://${value}`;
